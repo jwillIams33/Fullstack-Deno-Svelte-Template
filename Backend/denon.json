@@ -5,9 +5,12 @@
             "cmd": "deno run server.ts",
             "desc": "run my app.ts file",
             "allow": [
-                "env",
-                "net"
+                "net",
+                "write",
+                "read",
+                "plugin"
             ],
+            "unstable": true,
             "env": {
                 "PORT": "4000"
             }
