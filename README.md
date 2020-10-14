@@ -32,7 +32,7 @@ You must have Node.js and npm installed on your machine. This project was built 
 - Navigate to http://localhost:5000
 
 ### To start the backend server:
-- `cd` into the Backend folder and run `denon run --allow-net --allow-env --allow-read --unstable --allow-plugin --allow-write  server.ts`
+- `cd` into the Backend folder and run `denon start`
 - Server will be listening on port 4000. If you're using Postman, navigate to http://localhost:4000/API/tasks/ 
 
 ## Useful Guides
